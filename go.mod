@@ -1,6 +1,6 @@
 module github.com/davidnewhall/unpackerr
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0
@@ -11,7 +11,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/radovskyb/watcher v1.0.7
 	github.com/spf13/pflag v1.0.6-0.20201009195203-85dd5c8bc61c
-	golang.org/x/mod v0.7.0
+	golang.org/x/mod v0.17.0
 	golift.io/cnfg v0.2.1
 	golift.io/cnfgfile v0.0.0-20221228223038-bba56925665c
 	golift.io/rotatorr v0.0.0-20230110212846-590e84fecf74
@@ -44,15 +44,15 @@ require (
 	github.com/nwaples/rardecode v1.1.3 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/pierrec/lz4/v4 v4.1.17 // indirect
-	github.com/ulikunitz/xz v0.5.11 // indirect
+	github.com/ulikunitz/xz v0.5.14 // indirect
 	go.opentelemetry.io/otel v1.11.2 // indirect
 	go.opentelemetry.io/otel/trace v1.11.2 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	go4.org v0.0.0-20201209231011-d4a079459e60 // indirect
-	golang.org/x/net v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
